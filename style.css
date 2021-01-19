@@ -1,0 +1,120 @@
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#Home {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple, pink);
+}
+
+#Social {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #f5b8b8;
+}
+
+#VIVA {
+    width: 100%;
+    height: 155px;
+    background-color: #fca7e8;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-right: 10px;
+    margin-bottom: 15px;
+}
+
+.movie_head i {
+    float: right;
+}
+
+#MainSkating {
+    margin-bottom: 100px;
+}
+
+#MainDancing {
+    margin-top: 55px;
+}
+
+#Gallery {
+    background-color: #a8f0bb;
+}
+
+#Admission {
+    background-color: bisque;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#Contact {
+    background-color: antiquewhite;
+}
+
+#Alumni {
+    background-color: azure;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
